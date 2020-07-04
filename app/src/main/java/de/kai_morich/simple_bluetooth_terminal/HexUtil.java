@@ -327,11 +327,5 @@ public class HexUtil {
         return sbu.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println(str2HexStr("UserLogin 0000") + "0D");
-        System.out.println(str2HexStr("FileList") + "0D");
-        System.out.println(str2HexStr("ReadHEART") + "0D");
-        System.out.println(str2HexStr("ReadLUNG1") + "0D");
-        System.out.println(hexStr2Str("7374616e646279"));
-    }
+
 }
